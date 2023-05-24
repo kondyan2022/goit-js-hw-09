@@ -1,7 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'notiflix/dist/notiflix-3.2.6.min.css';
 
-refs = { form: document.querySelector('form.form') };
+const refs = { form: document.querySelector('form') };
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
